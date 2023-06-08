@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy hotel Kontakta</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/LogoMakr-4HVKjB.png" alt="The hotel logo">
+        <img id="pool" src="img/hotelpool.jpeg" alt="A picture of the pool">
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="kontakta.html" class="activ">Kontakta</a>
+        <a href="index.html">Välkomen</a>
+        <a href="boka.html">Boka</a>
+        <a href="hitta.html">Hitta</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+
+        </a>
+    </nav>
+    <div class="container">
+        <form action="action_page.php">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Förnamn</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Efternamn</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="extra">Medelande</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="extra" name="extra" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <aside>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde dolorum ad maiores, aspernatur repellendus
+            atque omnis in officiis molestiae voluptatum obcaecati alias porro minus neque corporis placeat totam iusto!
+        </p>
+    </aside>
+    <footer>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, corrupti animi? Illum nemo aliquam enim nam quis
+            vero ut amet debitis maxime iusto. Iusto tenetur voluptate nostrum recusandae voluptatum facere!
+        </p>
+    </footer>
+
+
+
+    <script src="script-nav.js"></script>
+</body>
+
+</html>
